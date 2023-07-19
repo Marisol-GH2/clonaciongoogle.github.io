@@ -1,0 +1,192 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgba(0,0,0,.87);
+    
+}
+
+nav .nav-right-section .menú {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /*Escala la imagen al mayor tamaño posible sin recortarla ni estirarla*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+    height: 100px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+    width: 500px;
+    border-radius: 80px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    border: none;
+    width: 450px;
+    height: 40px;
+    outline: none;
+} 
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 1px 1px #a6a7ad47;
+}
+
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/?size=2x&id=132&format=png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    padding-left: 6%;
+}
+
+main .main-input .microfono-icono{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 17px;
+    width: 17px;
+    padding-left: 1%;
+}
+
+main .main-input .camara-icono{
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    padding-right: 7%;
+    
+}
+
+main .main-buttons{
+    width: 500px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+ 
+main .main-buttons button{
+    border: 0;
+    height: 36px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-right: 15px;
+    border: 1px solid #f8f9fa;
+}
+    
+main .main-buttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+/*Contenido footer dividido en dos columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    bottom: 0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
+}
+ 
+footer .footer-left{
+    justify-self: left
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
